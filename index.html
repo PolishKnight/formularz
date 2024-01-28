@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontello-ea15c03b/css/fontello.css">
+</head>
+<body>
+    <form>
+        <h1>Formularz zgłoszeniowy</h1>
+
+        <div class="row">
+            <div class="col">
+                <div id="imiediv" class="inputWrapper">
+                    <input type="text" id="imie" name="imie">
+                    <label for="imie">Imie</label>
+                </div>
+                <div class="com"></div>
+
+                <div id="nazwiskodiv" class="inputWrapper">
+                    <input type="text" id="nazwisko" name="nazwisko">
+                    <label for="nazwisko">Nazwisko</label>
+                </div>
+                <div class="com"></div>
+
+            </div>
+            <div class="col">
+                <div>
+                    <div id="haslodiv" class="inputWrapper">
+                        <input type="password" id="haslo" name="haslo">
+                        <label for="haslo">Hasło</label>
+                        <span class="passwordToggle"><i class="icon-eye"></i></span>
+                    </div>
+                    <div class="com"></div>
+
+
+                    <div id="haslo2div" class="inputWrapper">
+                        <input type="password" id="haslo2" name="haslo2">
+                        <label for="haslo2">Powtórz hasło</label>
+                        <span class="passwordToggle"><i class="icon-eye"></i></span>
+                    </div>
+                    <div class="com"></div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div id="wiekdiv" class="inputWrapper">
+                    <input type="number" id="wiek" name="wiek">
+                    <label for="wiek">Wiek</label>
+                </div>
+                <div class="com"></div>
+
+                <div id="emaildiv" class="inputWrapper">
+                    <input type="text" id="email" name="email">
+                    <label for="email">Adres e-mail</label>
+                </div>
+                <div class="com"></div>
+            </div>
+            <div class="col">
+                <div id="adresdiv" class="inputWrapper">
+                    <input type="text" id="adres" name="adres">
+                    <label for="adres">Adres zamieszkania</label>
+                </div>
+                <div class="com"></div>
+        
+                <div id="koddiv" class="inputWrapper">
+                    <input type="text" id="kod" name="kod">
+                    <label for="kod">Kod pocztowy</label>
+                </div>
+                <div class="com"></div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <input type="button" value="Sprawdź">
+            <input type="reset" value="Wyczyść">
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
